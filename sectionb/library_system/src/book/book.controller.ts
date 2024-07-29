@@ -3,7 +3,7 @@ import { BookService } from './book.service';
 import { Book } from './book.entity';
 
 @Controller('books')
-export class BooksController {
+export class BookController {
   constructor(private readonly booksService: BookService) {}
 
   @Get()
